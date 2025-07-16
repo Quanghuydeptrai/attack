@@ -13,7 +13,7 @@ import threading
 
 # --- CẤU HÌNH CƠ BẢN CỦA BOT ---
 threading_pool = ThreadPoolExecutor(max_workers=int(100000))
-bot_token = '7674870566:AAFFpTcMfzMatLyyAvgjpVngJmpfuw5e8MA' 
+bot_token = '7600235743:AAFVoEoHZWjl7TaMe1uzTQilm_pDUMQB2Go' 
 bot = telebot.TeleBot(bot_token)
 processes = {}
 chan_spam = {}
@@ -22,7 +22,7 @@ attack_slots = {"normal": 0, "vip": 0}  # Theo dõi slot
 
 # --- CẤU HÌNH CỦA NGƯỜI DÙNG ---
 ADMIN_ID = '6684542694'
-ID_GROUP = '1002812130386' # ID Nhóm không có dấu gạch nối
+ID_GROUP = '1002769852502' # ID Nhóm không có dấu gạch nối
 link_gr = "https://t.me/smsjoonwuy"
 web_key_base_url = "https://sublikevip.site/index.html?key=" # URL gốc của trang chứa key
 user_bot = "@ddos_attack_bot"
